@@ -1,0 +1,16 @@
+baseURL = 'https://blog.ancyracademy.fr/'
+languageCode = 'fr-fr'
+defaultContentLanguage = "fr"
+title = 'Ancyr Academy'
+theme = "papermod"
+
+[params]
+    author = "Anthony Cyrille"
+    avatar = "images/logo.png"
+    favicon = "favicon.ico"
+    description = "Blog de la Ancyr Academy"
+    [params.advanced]
+        customCSS = ["css/main.css"]
+
+[markup.goldmark.renderer]
+    unsafe = true

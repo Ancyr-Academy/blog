@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fallback-b1: #0e1010;
+  }
+}
+body {
+  font-family: Outfit, sans-serif;
+}
+
+#dream-single-post-content p, #dream-single-post-content ul li {
+  font-size: 1.25rem;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: #f4fdfd
+}
+
+.prose {
+  max-width: 80ch;
+  color: #d0d5d5
+}
+
+.prose a {
+  color: #94e3e3
+}
+
+.prose strong {
+  color: #f4fdfd
+}
